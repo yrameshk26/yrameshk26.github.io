@@ -7,13 +7,30 @@ nav {
   width:99%;
   height: 98%;
   /*background: #e0e0e0;*/
-  background-image: url("../images/BW4.jpg");
+  background-image: url("../images/Vinayaha.jpg");
   background-size:cover;
   overflow: hidden;
   position: absolute;
 }
 
+#IndexPortText {
+  margin-top:49%;
+  text-align: center;
+  color:white;
+  font:14px Copperplate;
+  font-weight: bold;
+  letter-spacing: 30px;
+  transform:scale(1,1.5);
+}
 
+#IndexFooter {
+  margin-top:3%;
+  text-align: center;
+  /*text-transform: uppercase;*/
+  color:whitesmoke;
+  font:10px "Courier New", Courier, monospace;
+  transform:scale(1,1.6);
+  }
 
 #menu {
   width: 150px;
