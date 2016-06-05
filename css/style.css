@@ -7,19 +7,18 @@ body {
 }
 
 #navPage {
-  /*width:100%;*/
-  height: 100%;
+
   background: #e0e0e0;
-  background: url("../images/Vinayaha.jpg") 50% 0 no-repeat fixed;
+  background: url("../images/Vinayaha.jpg") 50% 0 no-repeat;
   background-size:cover;
   height: 800px;
-  margin: 0;
+  position: relative;
   /*padding: 200px 0 260px 0;*/
 }
 
 #naviMenu {
   width:100%;
-  height: 100%;
+  height:100%;
   overflow: hidden;
   position: absolute;
 }
@@ -34,12 +33,12 @@ body {
   text-transform: uppercase;
   font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
   letter-spacing: 30px;
-  transform:scale(1,1.5);
-  position: relative;
+  transform:scale(1.1,1.5);
+  position: absolute;
 }
 
 #IndexFooter {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   padding: 20px;
@@ -48,7 +47,7 @@ body {
   color:whitesmoke;
   font-size:10px;
   font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
-  transform:scale(1.3,1.6);
+  transform:scale(1.4,1.6);
   }
 
 #menu {
@@ -89,7 +88,6 @@ body {
   border-radius: 500px;
   border-radius: 50%;
   opacity: 0;
-  position: absolute;
 }
 
 .menu-button:target{
@@ -129,7 +127,6 @@ opacity: 0.5;
   top: 50%;
   left: 50%;
   display: none;
-  /*z-index: 0;*/
 }
 
 .menu-item:before {
@@ -285,43 +282,47 @@ opacity: 0.5;
 
 
 
-#navPage, #slide2{ width: 100%; }
+#navPage, #homePage {width: 100%}
 
+#homePage{
+  background: url(../images/Lights.jpg) 50% 0 no-repeat;
+  color: #e0e0e0;
+  height: 800px;
+  background-size: cover;
 
-#slide2{
-  background: url(../images/Lights.jpg) 50% 0 no-repeat fixed;
-  color: #333333;
+}
+
+#aboutMePage{
+  background: url(../images/RainDrops.jpg) 50% 0 no-repeat;
+  color: #e0e0e0;
   height: 800px;
   background-size: cover;
 }
 
-#slide3{
-  background: url(../images/RainDrops.jpg) 50% 0 no-repeat fixed;
-  color: #fff;
-  height: 800px;
-  padding: 170px 0 0 0;
-  background-size: cover;
-}
-
-#slide4{
-  background: url(../images/CNView.jpg) 50% 0 no-repeat fixed;
-  color: #333333;
+#portfolioPage{
+  background: url(../images/CNView.jpg) 50% 0 no-repeat;
+  color: #e0e0e0;
   height: 800px;
   background-size: cover;
 }
 
-#slide5{
-  background: url(../images/Lamb.jpg) 50% 0 no-repeat fixed;
+#interestsPage{
+  background: url(../images/Portraits.jpg) 50% 0 no-repeat;
   height: 800px;
-  margin: 0 auto;
-  color: #fff;
+  color: #e0e0e0;
   background-size: cover;
 }
 
-#slide6{
-  background: url(../images/Portraits.jpg) 50% 0 no-repeat fixed;
+#skillsPage{
+  background: url(../images/Lamb.jpg) 50% 0 no-repeat;
   height: 800px;
-  margin: 0 auto;
-  color: #fff;
+  color: #e0e0e0;
+  background-size: cover;
+}
+
+#contactMePage{
+  background: url(../images/TorontoBW.jpg) 50% 0 no-repeat;
+  height: 800px;
+  color: #e0e0e0;
   background-size: cover;
 }
