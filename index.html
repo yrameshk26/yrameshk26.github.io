@@ -5,6 +5,25 @@
       <title>Ramesh Portfolio</title>
       <link rel="stylesheet" href="css/style.css" type="text/css">
 
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript">
+$(function() {
+  $('.menu-item-back[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>
+
+
   </head>
 
 
