@@ -26,7 +26,7 @@ function dofirst() {
 				var BRICKHEIGHT = 15;
 				var PADDING = 10;
 				var paddleh = 30;
-				var paddlew = 500;
+				var paddlew = 700;
 				var rightDown = false;
 				var leftDown = false;
 				var canvasMinX = 0;
@@ -125,10 +125,12 @@ function dofirst() {
 				// This pauses the game when pause button is clicked
 				function pauseGame() {
 					clearInterval(intervalId);
+                    bgm.pause();
 				}
 
 				// This stops the game when stop button is pressed and asks the user to exit the game or stay in the game
 				function stopGame() {
+                        bgm.pause();
 					clearInterval(intervalId);
     					if (confirm("Are you sure? Do you want to quit the Game?") == true) {
 					       // alert("Thank you for playing our game!!!");
@@ -170,6 +172,7 @@ function dofirst() {
 					    difficulty = prompt("Please enter the difficulty (1-10)");
 					    document.getElementById('playNowBtn').style.display = 'block'; 
         				this.style.display = 'none';
+                        startGame();
 				}
 
 
@@ -200,7 +203,7 @@ function dofirst() {
 							clear();
 							ctx.fillStyle = ballcolor;
 							circle(x, y, r);
-
+                            var paddlew = 700 - (difficulty * 50);
 							//move the paddle if left or right is currently pressed
 							if (rightDown) paddlex += 15;
 							else if (leftDown) paddlex -= 15;
@@ -221,7 +224,8 @@ function dofirst() {
 							    score++;											//Adds score each time brick breaks
 							    breakBeep.play();									//Plays break music while brick breaks.
 							    if (score == NROWS * NCOLS){
-							    	ctx.font = "70px Georgia";						//Displays Canvas Text with the points and game over
+							    	bgm.pause();
+                                    ctx.font = "70px Georgia";						//Displays Canvas Text with the points and game over
 						      		ctx.fillStyle = "black";
 							  		ctx.fillText("You WON....!!!!!",WIDTH/3.25,HEIGHT/2.20);
 							  		ctx.fillStyle = "black";
@@ -251,7 +255,8 @@ function dofirst() {
 						    else{
 						      //game over, so stop the animation
 						      clearInterval(intervalId);
-						      ctx.font = "70px Georgia";				//Displays Canvas Results with points and Game Over.
+						      bgm.pause();
+                                ctx.font = "70px Georgia";				//Displays Canvas Results with points and Game Over.
 						      ctx.fillStyle = "black";
 							  ctx.fillText("Game Over....!!!",WIDTH/3.25,HEIGHT/2.20);
 							  ctx.fillStyle = "black";
