@@ -230,7 +230,7 @@ function dofirst() {
 							  		ctx.fillText("You WON....!!!!!",WIDTH/3.25,HEIGHT/2.20);
 							  		ctx.fillStyle = "black";
 							  		ctx.font = "40px Georgia";
-							  		ctx.fillText("Your got :" + score * 100 + " points",WIDTH/2.78,HEIGHT/1.80);
+							  		ctx.fillText("You got :" + score * 100 + " points",WIDTH/2.78,HEIGHT/1.80);
 							  		ctx.font = "25px Georgia";
 							  		ctx.strokeText("(Refresh page to play again.)",WIDTH/2.6,HEIGHT/1.62);
 						      		score = 0;
@@ -261,7 +261,7 @@ function dofirst() {
 							  ctx.fillText("Game Over....!!!",WIDTH/3.25,HEIGHT/2.20);
 							  ctx.fillStyle = "black";
 							  ctx.font = "40px Georgia";
-							  ctx.fillText("Your got :" + score * 100 + " points",WIDTH/2.78,HEIGHT/1.80);
+							  ctx.fillText("You got :" + score * 100 + " points",WIDTH/2.78,HEIGHT/1.80);
 							  ctx.font = "25px Georgia";
 							  ctx.strokeText("(Refresh page to play again.)",WIDTH/2.6,HEIGHT/1.62);
 						      score = 0;
