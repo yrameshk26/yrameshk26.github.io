@@ -129,3 +129,8 @@ $(function() {
   });
     
 });
+
+
+function collapse() {
+    document.getElementsByClassName("ca-menu")[0].classList.toggle("responsive");
+}
