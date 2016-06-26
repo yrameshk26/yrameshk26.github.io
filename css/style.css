@@ -472,7 +472,7 @@ div.pop-up {
 }
 
 
-@media screen and (max-width:1800px) {
+@media screen and (max-width:680px) {
   .ca-menu li:not(:first-child) {display: none;}
   .ca-menu li.collapse-icon {
     float: right;
@@ -480,7 +480,7 @@ div.pop-up {
   }
 }
 
-@media screen and (max-width:1800px) {
+@media screen and (max-width:680px) {
   .ca-menu.responsive {position: relative;}
   .ca-menu.responsive li.collapse-icon {
     position: absolute;
@@ -497,7 +497,7 @@ div.pop-up {
   }
 }
 
-@media screen and (max-width:1800px) {
+@media screen and (max-width:500px) {
     .ca-content{display: none;}
     .ca-menu li {width:9%;}
     .ca-icon{left: 20%;}
