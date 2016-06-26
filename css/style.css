@@ -419,7 +419,7 @@ div.pop-up {
 
 
 .ca-menu li:last-child{
-    width: 4%;
+    width: 50px; /* change this to % after adding flex property */
 /*
     margin-bottom: 2%;
     z-index: 10;
