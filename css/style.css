@@ -35,12 +35,20 @@ html,body {
   padding: 60px;
   text-align: center;
   color:ghostwhite;
-  font-size:14px;
+  font-size:1.5vw;
   text-transform: uppercase;                                /*Transform the text to uppercase*/
   font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
-  letter-spacing: 30px;                                     /*Makes letter spacing to the text*/
+  letter-spacing: 2.1vw;                                     /*Makes letter spacing to the text*/
   transform:scale(1.1,1.5);
   position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    flex: 0 1 100%;
+    align-self: auto;
 }
 
 #IndexFooter {                                              /*Sets the footer section properties*/
