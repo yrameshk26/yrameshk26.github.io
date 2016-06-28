@@ -29,10 +29,12 @@ html,body {
   position: absolute;                                       /*Sets the absolute position*/
 }
 
-#IndexPortText {                                            /*Sets the first page Text Section Properties*/
+#indexPortText {                                            /*Sets the first page Text Section Properties*/
   width: 100%;
   bottom: 1;
-  padding: 60px;
+  padding-top: 7vw;
+  padding-left: 10vw;    
+  padding-right: 10vw;
   text-align: center;
   color:ghostwhite;
   font-size:1.5vw;
@@ -41,26 +43,18 @@ html,body {
   letter-spacing: 2.1vw;                                     /*Makes letter spacing to the text*/
   transform:scale(1.1,1.5);
   position: absolute;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    align-items: flex-start;
-    flex: 0 1 100%;
-    align-self: auto;
 }
 
-#IndexFooter {                                              /*Sets the footer section properties*/
+#indexFooter {                                              /*Sets the footer section properties*/
   position: fixed;
   bottom: 0;
   width: 100%;
   padding: 20px;
   text-align: center;
   color:black;
-  font-size:10px;
+  font-size:1vw;
   font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
-  transform:scale(1.4,1.4);
+  transform:scale(1.2,1.2);
   }
 
 
@@ -453,7 +447,7 @@ div.pop-up {
     -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
     box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
     order: 0;
-    flex: 0 1 200px;
+    flex: 0 1 16vw;
     align-self: flex-start;
     margin-top: 1%;
     margin-left: 0.3%;
@@ -554,6 +548,9 @@ div.pop-up {
 @media screen and (max-width:900px) {
 .ca-sub{display: none}
     .ca-content{top:25%;}
+    #indexFooter{
+        font-size: 1.3vw;
+    }
 }
 
 @media screen and (max-width:680px) {
@@ -562,7 +559,9 @@ div.pop-up {
     .ca-icon{left: 20%; font-size: 20px;}
     .ca-menu li:hover .ca-icon{left: 12.5%;font:25px;}
     
-    
+    #indexFooter{
+        font-size: 1.8vw;
+    }
 }
 
 .ca-content{
