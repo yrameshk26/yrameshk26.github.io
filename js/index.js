@@ -25,7 +25,49 @@ $(document).ready(function() {
     return false;
   });
 
+ $('.leftArrow').click(function() {
+
+    $('.leftArrow').removeClass('selected');
+    $(this).addClass('selected');
+
+    current = $(this);
+
+    $('#wrapper').scrollTo($(this).attr('href'), 800);
+
+    return false;
+  });  
+    
+$('.rightArrow').click(function() {
+
+$('.rightArrow').removeClass('selected');
+$(this).addClass('selected');
+
+current = $(this);
+
+$('#wrapper').scrollTo($(this).attr('href'), 800);
+
+return false;
+}); 
+   
 });
+
+ $(".menu-item-back").click(function(){
+        $("#topNav").fadeIn(1400);
+    });
+
+
+$("#homeLeftArrow").click(
+    function() {
+        $("#topNav").fadeOut(-500);
+    }
+);
+
+$("#navRightArrow").click(
+    function() {
+        $("#topNav").fadeIn(1200);
+    }
+);
+   
 
 
 //Jquery for popup display of Home menu icon
