@@ -520,6 +520,9 @@ div.pop-up {
     .ca-menu {
         justify-content: flex-start;
     }
+    #IndexPortText{
+        font-size: 2vw;
+    }
 }
 
 @media screen and (max-width:680px) {
