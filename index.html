@@ -2,14 +2,16 @@
 <html >
 
   <head>
-                                                            <!-- Defines Head Tag -->
+      
       <meta charset="UTF-8">                                          <!-- Universal Charactor Encoding -->
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Ramesh Portfolio</title>                                 <!-- Defines the Tab Name -->
       <link rel="stylesheet" href="css/style.css" type="text/css">    <!-- Connects CSS Style Sheet -->
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
         <link rel="stylesheet" href="css/fontawesome/css/font-awesome.min.css">
         <link href='http://fonts.googleapis.com/css?family=Terminal+Dosis' rel='stylesheet' type='text/css' />
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,800' rel='stylesheet' type='text/css'>
+
 
   </head>
 
@@ -73,7 +75,7 @@
 
             </section>
 
-              <section class="panel" id="homePage">                                         <!-- Home Page Section -->
+              <section class="panel" id="homePage">     <!-- Home Page Section -->
                  <nav class="arrowNav">
                 <a href="#navPage" class="leftArrow" id="homeLeftArrow"><i class="fa fa-arrow-circle-left"></i></a>
                 <a href="#aboutMePage" class="rightArrow"><i class="fa fa-arrow-circle-right"></i></a>
@@ -127,7 +129,22 @@
               </section>
 
              <nav id="topNav">
-                    
+                 <header id="webHeader">
+  <svg>
+   <defs>
+     <mask id="maskHeader" x="0" y="0" width="100%" height="100%" >
+       <!-- alpha rectangle -->
+       <rect id="alphaHeader" x="0" y="0" width="100%" height="100%"/>
+       <!-- All text that you want -->
+       <text id="titleHeader" dx="25%" y="7.5vw">Ramesh Yoha</text>
+       <text id="subtitleHeader" dx="25.7%" y="9.1vw" >www.yrameshk.com</text>
+     </mask>
+    </defs>
+    <!-- Apply color here! -->
+    <rect id="baseHeader" x="0" y="0" width="100%" height="100%"/>
+  </svg>
+<!--<section class="introHeader"></section></header>-->
+                 </header>
                       <ul class="ca-menu">
 
                     <li class="other-icon"><a href="#homePage">
@@ -198,7 +215,6 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js'></script>
 
         <script src="js/index.js"></script>
-      <script src="js/enquire.min.js"></script>
 
   </body>
 
