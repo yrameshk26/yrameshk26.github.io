@@ -14,9 +14,9 @@ html,body {
 
 #navPage {                                                  /*Sets the Navigation Menu Page Properties*/
   background: #e0e0e0;
-  background: url("../images/Vinayaha.jpg") 50% 0 no-repeat; 
+  background: url("../images/Vinayaha.jpg") 50% 0 no-repeat;
 /*    Sets the background image, position, repeating factor to none*/
-  background-size:cover;   
+  background-size:cover;
 /*    Covers the whole page*/
   height:100%;                                             /*Covers the whole height*/
   position: relative;                                         /*Sets the relative position*/
@@ -34,7 +34,7 @@ html,body {
   width: 100%;
   bottom: 1;
   padding-top: 7vw;
-  padding-left: 90px;    
+  padding-left: 90px;
   padding-right: 90px;
   text-align: center;
   color:ghostwhite;
@@ -94,7 +94,7 @@ html,body {
   font-size: 100%;
   transform:rotate(360deg);
   transition:0.8s ease-in-out;
-  overflow: hidden;  
+  overflow: hidden;
    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -365,8 +365,8 @@ html,body {
   color: #e0e0e0;
 }
 
-.panel { 
-    width: 14.28%; 
+.panel {
+    width: 14.28%;
     height: 100%; float: left;
     position: relative;
 /*
@@ -504,7 +504,7 @@ div.pop-up {
 
 
 .ca-menu li:last-child{
-    width: 50px; 
+    width: 50px;
 }
 
 
@@ -558,7 +558,7 @@ div.pop-up {
     right: 1%;
     float: right;
   }
-    .ca-menu li{ flex: 0 1 50px; 
+    .ca-menu li{ flex: 0 1 50px;
     margin-left: 1%;
     }
     .ca-menu {
@@ -571,7 +571,7 @@ div.pop-up {
 
 @media screen and (max-width:680px) {
   .ca-menu.responsive {position: relative;}
-  
+
   .ca-menu.responsive li.collapse-icon {
     position: absolute;
     top: 0;
@@ -585,8 +585,8 @@ div.pop-up {
     flex: 0 1 50px;
     margin-left: 1%;
   }
-    
-.ca-menu.responsive li.other-icon:not(:first-child) { 
+
+.ca-menu.responsive li.other-icon:not(:first-child) {
     margin-top: 2%;
 }
   .ca-menu.responsive li a {
@@ -608,7 +608,7 @@ div.pop-up {
     .ca-menu li {width:60px; border-radius: 50%;}
     .ca-icon{left: 25%; font-size: 20px; margin-top: 15%;}
     .ca-menu li:hover .ca-icon{left: 12.5%;font:25px;}
-    
+
     #indexFooter{
         font-size: 1.8vw;
     }
@@ -617,7 +617,7 @@ div.pop-up {
 @media screen and (max-width:680px) and (min-height:550px){
     .ca-menu li {height: 8vh;}
     .ca-icon{top:-40%;}
-    
+
 }
 
 @media screen and (max-height:500px) {
@@ -629,11 +629,11 @@ div.pop-up {
 }
 
 @media screen and (max-height:480px){
-    #webHeader{height: 11vw; background: url(../images/bird.jpg) no-repeat top center;
+    #webHeader{height: 11vw; background: url(https://fldnlg-ch3302.files.1drv.com/y3mszFAqbtWQp5updSpshhYAsK6mrTyV1-NsOpV7XqSL9xWYTo0gHuoieoYdiuVyK5YdHRekEJO7dnC5zqPR7b_qdNpzArvtn2ajraNxlsFOCtl7HxFkdylKlDL8H6FwVGdAM4zu3SSjdSPHkGsfAEL2k4vJhffxGYlSKGXk_IWCDw?width=4533&height=808&cropmode=none) no-repeat top center;
   background-size: cover;}
 }
 @media screen and (min-height:480px){
-    #webHeader{height: 11vw; background: url(../images/bird.jpg) no-repeat top center;
+    #webHeader{height: 11vw; background: url(https://fldnlg-ch3302.files.1drv.com/y3mszFAqbtWQp5updSpshhYAsK6mrTyV1-NsOpV7XqSL9xWYTo0gHuoieoYdiuVyK5YdHRekEJO7dnC5zqPR7b_qdNpzArvtn2ajraNxlsFOCtl7HxFkdylKlDL8H6FwVGdAM4zu3SSjdSPHkGsfAEL2k4vJhffxGYlSKGXk_IWCDw?width=4533&height=808&cropmode=none) no-repeat top center;
   background-size: cover;
     }
 }
