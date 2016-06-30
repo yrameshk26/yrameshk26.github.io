@@ -173,8 +173,3 @@ $(function() {
 });
 
 
-function collapse() {
-    for (var i=0;i<6;i++){
-    document.getElementsByClassName("ca-menu")[i].classList.toggle("responsive");
-}
-}

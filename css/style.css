@@ -14,9 +14,9 @@ html,body {
 
 #navPage {                                                  /*Sets the Navigation Menu Page Properties*/
   background: #e0e0e0;
-  background: url("../images/Vinayaha.jpg") 50% 0 no-repeat;
+  background: url("../images/Vinayaha.jpg") 50% 0 no-repeat; 
 /*    Sets the background image, position, repeating factor to none*/
-  background-size:cover;
+  background-size:cover;   
 /*    Covers the whole page*/
   height:100%;                                             /*Covers the whole height*/
   position: relative;                                         /*Sets the relative position*/
@@ -34,7 +34,7 @@ html,body {
   width: 100%;
   bottom: 1;
   padding-top: 7vw;
-  padding-left: 90px;
+  padding-left: 90px;    
   padding-right: 90px;
   text-align: center;
   color:ghostwhite;
@@ -69,7 +69,6 @@ html,body {
     color: black;
     z-index: 10;
 }
-
 .rightArrow{
     font-size: 50px;
     right: 1%;
@@ -79,6 +78,10 @@ html,body {
     text-decoration: none;
     color: black;
     z-index: 10;
+}
+
+.rightArrow:hover, .leftArrow:hover{
+    color: #284942;
 }
 
 #menu {                                                     /*Defines the Initial Properties of the navigation Menu*/
@@ -94,7 +97,7 @@ html,body {
   font-size: 100%;
   transform:rotate(360deg);
   transition:0.8s ease-in-out;
-  overflow: hidden;
+  overflow: hidden;  
    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -309,15 +312,74 @@ html,body {
   opacity: 0.6;
 }
 
-
-
 #homePage{                                                      /*Assigns Home Page and Background*/
-/*
-  background: url(../images/Lights.jpg) 50% 0 no-repeat;
+  background: url(../images/Food.jpg) 50% 0 no-repeat;
   background-size: cover;
-*/
-  color: #e0e0e0;
+/*  color: #e0e0e0;*/
   height:100%;
+}
+
+#homeArticle{
+    z-index: 20;
+    background-color: rgba(0, 0, 0, 0.54);
+	color: inherit;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+}
+
+.homeMainText {
+    margin-top: 5%;
+    bottom: 0;
+/*    margin-bottom: 10%;*/
+    font-size: 8vw;
+    position: static;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height:0.88;
+	font-weight: lighter;
+    color:#E2F0DF;
+    order: 0;
+    flex: 1 1 100%;
+    align-self: center;
+    text-align: center;
+}
+.homeSubText{
+    top:0;
+    margin-top: -20%;
+    font-size: 1.8vw;
+    position: static;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height:1.42857143;
+	font-weight: lighter;
+    color:whitesmoke;
+    order: 0;
+    flex: 1 1 100%;
+    align-self: center;
+    text-align: center;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+}
+
+@media screen and (max-width:680px){
+    .homeSubText{
+    margin-left: 10vw;
+    margin-right: 10vw;
+        font-size: 15px;
+    }
+    .homeMainText{
+        font-size: 12vw;
+    }
 }
 
 #aboutMePage{                                                   /*Assigns About Me Page and Background*/
@@ -365,8 +427,8 @@ html,body {
   color: #e0e0e0;
 }
 
-.panel {
-    width: 14.28%;
+.panel { 
+    width: 14.28%; 
     height: 100%; float: left;
     position: relative;
 /*
@@ -482,29 +544,33 @@ div.pop-up {
     justify-content: center;
     align-content: flex-start;
     align-items: flex-start;
+    position: absolute;
+    top:0;
+    margin-top: 10%;
 }
 .ca-menu li{
     width: 16%;
-    height: 10%;
+    height: 5vw;
     overflow: hidden;
     position: relative;
 /*    display: block;*/
     float: left;
     background: #fff;
-    -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
-    -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
-    box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+    -moz-box-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.6);
     order: 0;
     flex: 0 1 16vw;
     align-self: flex-start;
 /*    margin-top: 1%;*/
     margin-left: 0.3%;
+    border-radius: 5px;
 }
 
 
 
 .ca-menu li:last-child{
-    width: 50px;
+    width: 50px; 
 }
 
 
@@ -526,10 +592,16 @@ div.pop-up {
     position: static;
     width: 45%;
     left: -10%;
-    bottom: -1vw;
-    top: -1vw;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
     position: absolute;
+    top:0;
+    margin-top: 10%;
+    text-align: center;
     -webkit-transition: all 300ms linear;
     -moz-transition: all 300ms linear;
     -o-transition: all 300ms linear;
@@ -558,8 +630,9 @@ div.pop-up {
     right: 1%;
     float: right;
   }
-    .ca-menu li{ flex: 0 1 50px;
+    .ca-menu li{ flex: 0 1 50px; 
     margin-left: 1%;
+    height: 8%;
     }
     .ca-menu {
         justify-content: flex-start;
@@ -569,9 +642,10 @@ div.pop-up {
     }
 }
 
-@media screen and (max-width:680px) {
-  .ca-menu.responsive {position: relative;}
 
+@media screen and (max-width:680px) {
+  .ca-menu.responsive {position: absolute;}
+  
   .ca-menu.responsive li.collapse-icon {
     position: absolute;
     top: 0;
@@ -585,8 +659,8 @@ div.pop-up {
     flex: 0 1 50px;
     margin-left: 1%;
   }
-
-.ca-menu.responsive li.other-icon:not(:first-child) {
+    
+.ca-menu.responsive li.other-icon:not(:first-child) { 
     margin-top: 2%;
 }
   .ca-menu.responsive li a {
@@ -605,35 +679,37 @@ div.pop-up {
 
 @media screen and (max-width:680px) {
     .ca-content{display: none;}
-    .ca-menu li {width:60px; border-radius: 50%;}
-    .ca-icon{left: 25%; font-size: 20px; margin-top: 15%;}
+    .ca-menu li {width:60px; border-radius: 50%;height: 3em;}
+    .ca-icon{left: 25%; font-size: 20px; margin-top: 15%;top:-80%;display: block;}
     .ca-menu li:hover .ca-icon{left: 12.5%;font:25px;}
-
+    
     #indexFooter{
         font-size: 1.8vw;
     }
 }
 
-@media screen and (max-width:680px) and (min-height:550px){
-    .ca-menu li {height: 8vh;}
-    .ca-icon{top:-40%;}
+/*
+@media screenand(min-width:680px){
+    .ca-icon{top:0%;}
+}
+*/
 
+@media screen and  (min-height:550px) and (max-width:680px){
+    .ca-menu li {height: 3em;}
+    .ca-icon{top:-80%;}
 }
 
-@media screen and (max-height:500px) {
-    .ca-icon{top:-55%;}
-}
 
 @media screen and (max-height:620px){
     .ca-sub{display: none}
 }
 
 @media screen and (max-height:480px){
-    #webHeader{height: 11vw; background: url(https://fldnlg-ch3302.files.1drv.com/y3mszFAqbtWQp5updSpshhYAsK6mrTyV1-NsOpV7XqSL9xWYTo0gHuoieoYdiuVyK5YdHRekEJO7dnC5zqPR7b_qdNpzArvtn2ajraNxlsFOCtl7HxFkdylKlDL8H6FwVGdAM4zu3SSjdSPHkGsfAEL2k4vJhffxGYlSKGXk_IWCDw?width=4533&height=808&cropmode=none) no-repeat top center;
+    #webHeader{height: 11vw; background: url(../images/bird.jpg) no-repeat top center;
   background-size: cover;}
 }
 @media screen and (min-height:480px){
-    #webHeader{height: 11vw; background: url(https://fldnlg-ch3302.files.1drv.com/y3mszFAqbtWQp5updSpshhYAsK6mrTyV1-NsOpV7XqSL9xWYTo0gHuoieoYdiuVyK5YdHRekEJO7dnC5zqPR7b_qdNpzArvtn2ajraNxlsFOCtl7HxFkdylKlDL8H6FwVGdAM4zu3SSjdSPHkGsfAEL2k4vJhffxGYlSKGXk_IWCDw?width=4533&height=808&cropmode=none) no-repeat top center;
+    #webHeader{height: 11vw; background: url(../images/bird.jpg) no-repeat top center;
   background-size: cover;
     }
 }
@@ -678,7 +754,7 @@ div.pop-up {
     font-size: 1.17vw;
     color: #666;
     position: absolute;
-    bottom:20%;
+    bottom:10%;
     -webkit-transition: all 300ms linear;
     -moz-transition: all 300ms linear;
     -o-transition: all 300ms linear;
@@ -686,17 +762,18 @@ div.pop-up {
     transition: all 300ms linear;
 }
 .ca-menu li:hover{
-    background: #e1f0fa;
+    background: #C5E3BF;
 }
+
 .ca-menu li:hover .ca-icon{
     font-size: 35px;
-    color: #259add;
+    color: #215E21;
     opacity: 0.8;
     text-shadow: 0px 0px 13px #fff;
 }
 .ca-menu li:hover .ca-main{
     opacity: 1;
-    color:#2676ac;
+    color:#215E21;
     -webkit-animation: moveFromTop 300ms ease-in-out;
     -moz-animation: moveFromTop 300ms ease-in-out;
     -ms-animation: moveFromTop 300ms ease-in-out;
