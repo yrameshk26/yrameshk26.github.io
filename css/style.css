@@ -705,11 +705,11 @@ div.pop-up {
 }
 
 @media screen and (max-height:480px){
-    #webHeader{height: 11vw; background: url(../images/bird.jpg) no-repeat top center;
+    #webHeader{height: 11vw; background: url(https://fldnlg-ch3302.files.1drv.com/y3mszFAqbtWQp5updSpshhYAsK6mrTyV1-NsOpV7XqSL9xWYTo0gHuoieoYdiuVyK5YdHRekEJO7dnC5zqPR7b_qdNpzArvtn2ajraNxlsFOCtl7HxFkdylKlDL8H6FwVGdAM4zu3SSjdSPHkGsfAEL2k4vJhffxGYlSKGXk_IWCDw?width=4533&height=808&cropmode=none) no-repeat top center;
   background-size: cover;}
 }
 @media screen and (min-height:480px){
-    #webHeader{height: 11vw; background: url(../images/bird.jpg) no-repeat top center;
+    #webHeader{height: 11vw; background: url(https://fldnlg-ch3302.files.1drv.com/y3mszFAqbtWQp5updSpshhYAsK6mrTyV1-NsOpV7XqSL9xWYTo0gHuoieoYdiuVyK5YdHRekEJO7dnC5zqPR7b_qdNpzArvtn2ajraNxlsFOCtl7HxFkdylKlDL8H6FwVGdAM4zu3SSjdSPHkGsfAEL2k4vJhffxGYlSKGXk_IWCDw?width=4533&height=808&cropmode=none) no-repeat top center;
   background-size: cover;
     }
 }
