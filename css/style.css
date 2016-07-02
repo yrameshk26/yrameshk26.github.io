@@ -11,11 +11,7 @@ html,body {
   overflow: hidden;
   text-rendering: optimizelegibility;
 }
-applet{
-    border-width: 20px;
-    border-color: red;
-    z-index: 100;
-}
+
 #navPage {                                                  /*Sets the Navigation Menu Page Properties*/
   background: #e0e0e0;
   background: url("../images/Vinayaha.jpg") 50% 0 no-repeat;
@@ -412,6 +408,7 @@ applet{
     order: 0;
     flex: 1 1 auto;
     align-self: flex-start;
+    z-index: 10;
 }
 
 #aboutMeInfo{
