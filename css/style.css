@@ -56,7 +56,7 @@ html,body {
   font-size:1vw;
   font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
   transform:scale(1.2,1.2);
-    z-index: 10;
+    z-index: 100;
   }
 
 
@@ -601,6 +601,80 @@ span.text-content {
   color: #e0e0e0;
 }
 
+@import 'https://fonts.googleapis.com/css?family=PT+Sans+Narrow';
+
+#interestsSection{
+    bottom: 0%;
+    top: 11vw;
+    position: absolute;
+    width: 100%;  
+}
+.multiInterests{
+    font-size:70px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+    color: floralwhite;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: flex-start;
+    position: absolute;
+	overflow: hidden;
+}
+
+.multiInterests div{
+    order: 0;
+    flex: 1 1 25%;
+    align-self: stretch; 
+    position: absolute;
+	width: 50%;
+	height: 50%;
+    display: table;
+}
+
+.multiInterests div a h1{
+    font-size:70px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.multiInterests div a{
+    display:table-cell; 
+    vertical-align:middle;
+    text-decoration: none;
+    color: floralwhite;
+    z-index:10;
+}
+
+#photography{
+    top: 0;
+	left: 0;
+	background: url(../images/Photography.jpg);
+    background-size: 100%;
+}
+
+#sports{
+    top: 0;
+	left: 50%;
+	background: url(../images/Pool.jpg);
+    background-size: cover;
+}
+
+#socialMedia{
+    top: 50%;
+	left: 0;
+	background: url(../images/Social.jpg);
+    background-size: cover;
+}
+
+#travelling{
+    top: 50%;
+	left: 50%;
+	background: url(../images/Travelling.jpg);
+    background-size: cover;
+}
+
 #skillsPage{                                                    /*Assigns Skills Page and Background*/
 /*
   background: url(../images/Lamb.jpg) 50% 0 no-repeat;
@@ -648,11 +722,13 @@ span.text-content {
     flex: 1 1 auto;
     align-self: flex-start;
     z-index: 0;
+    margin-top: 10%;
+    vertical-align: middle;
 }
 
 #contactForm{
     order: 0;
-    flex: 1 1 60%;
+    flex: 1 1 55%;
     align-self: flex-start;
     margin-top: 1%;
 }
@@ -661,12 +737,16 @@ span.text-content {
     #contactSection{
         top:5%;
     }
+    #contactHeading{
+    margin-top: -20%;}
 }
 
 @media screen and (max-width:900px){
     #contactSection{
         top:20%;
     }
+    #contactHeading{
+    margin-top: -10%;}
 }
 
 #contactHeading p {
@@ -675,7 +755,7 @@ span.text-content {
   margin:0px;
     top:0px;
     padding: 0px;
-  font-size: 62px;
+  font-size: 55px;
   text-transform: uppercase;
   font-weight: 700;
   text-align: center;
@@ -693,8 +773,6 @@ span.text-content {
   color: seashell;
   text-shadow: 0 0 15px rgba(153, 255, 153, 1),0 0 15px rgba(153, 255, 153, 1),0 0 15px rgba(153, 255, 153, 1);
 }
-
-
 
 .contact-form .input-block {
   background-color: rgba(255, 255, 255, 0.8);
@@ -772,7 +850,6 @@ span.text-content {
     margin: auto;
   }
 }
-
 
 .iconSocial {
   position: absolute;
@@ -996,6 +1073,7 @@ div.pop-up {
     position: absolute;
     top:0;
     margin-top: 10%;
+    z-index: 10;
 }
 .ca-menu li{
     width: 16%;
