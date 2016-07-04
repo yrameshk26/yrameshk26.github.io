@@ -52,6 +52,7 @@ html,body {
   width: 100%;
   padding: 2vw;
   text-align: center;
+  text-shadow: #FFFFFF 0 0 15px, #FFFFFF 0px 0px 15px;
   color:black;
   font-size:1vw;
   font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
@@ -601,7 +602,7 @@ span.text-content {
   color: #e0e0e0;
 }
 
-@import 'https://fonts.googleapis.com/css?family=PT+Sans+Narrow';
+@import 'https://fonts.googleapis.com/css?family=Poiret+One';
 
 #interestsSection{
     bottom: 0%;
@@ -611,7 +612,7 @@ span.text-content {
 }
 .multiInterests{
     font-size:70px;
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Poiret One', cursive;
     text-align: center;
     color: floralwhite;
     display: flex;
@@ -635,8 +636,7 @@ span.text-content {
 }
 
 .multiInterests div a h1{
-    font-size:70px;
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-size:50px;
 }
 
 .multiInterests div a{
@@ -644,7 +644,6 @@ span.text-content {
     vertical-align:middle;
     text-decoration: none;
     color: floralwhite;
-    z-index:10;
 }
 
 #photography{
@@ -653,7 +652,6 @@ span.text-content {
 	background: url(../images/Photography.jpg);
     background-size: 100%;
 }
-
 #sports{
     top: 0;
 	left: 50%;
