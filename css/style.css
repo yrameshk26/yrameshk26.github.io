@@ -64,7 +64,7 @@ html,body {
 .leftArrow{
     font-size: 50px;
     left:1%;
-    bottom:1vw;
+    bottom:3vw;
     position: absolute;
     text-shadow: #FFFFFF 0 0 15px, #FFFFFF 0px 0px 15px;
     text-decoration: none;
@@ -74,12 +74,17 @@ html,body {
 .rightArrow{
     font-size: 50px;
     right: 1%;
-    bottom:1vw;
+    bottom:3vw;
     position: absolute;
     text-shadow: #FFFFFF 0 0 15px, #FFFFFF 0px 0px 15px;
     text-decoration: none;
     color: black;
     z-index: 100;
+}
+
+@media screen and (min-width:680px){
+    #navRightArrow,#homeRightArrow,#aboutArrowNav,#contactArrowNav,#skillArrowNav,#portArrowNav,#interestArrowNav{display:none;}
+    
 }
 
 .rightArrow:hover, .leftArrow:hover{
@@ -471,7 +476,7 @@ html,body {
     #aboutMeSection{
         width: 100%;
         top:0;
-        padding-top: 40%;
+        padding-top: 30%;
     }
     #aboutMeImage img{
         height: 150px;
@@ -736,12 +741,12 @@ span.text-content {
     margin-top: -20%;}
 }
 
-@media screen and (max-width:900px){
+@media screen and (max-width:908px){
     #contactSection{
         top:20%;
     }
     #contactHeading{
-    margin-top: -10%;}
+    margin-top: 0%;}
 }
 
 #contactHeading p {
@@ -1144,6 +1149,7 @@ div.pop-up {
 
 
 @media screen and (max-width:680px) {
+    .ca-menu{display:none;}
   .ca-menu li:not(:first-child) {display: none;}
   .ca-menu li.collapse-icon {
     position: absolute;
