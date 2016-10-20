@@ -640,6 +640,9 @@ header{
 .education h2{
 	color:#ff675f;
 }
+.education p{
+	padding-bottom: 5px;
+}
 .education p, ul, li {
 	color:#84868d;
 	/*font-size:13px;*/
