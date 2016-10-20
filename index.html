@@ -10,6 +10,8 @@
 <!--main style-->
 <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.css">
 <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+<!--background slider style-->
+<link rel="stylesheet" type="text/css" href="css/slideshow.css" />
 <!--google font style-->
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300' rel='stylesheet' type='text/css'>
 <!--font-family: 'Open Sans', sans-serif;-->
@@ -20,6 +22,9 @@
 <noscript>
 <link rel="stylesheet" type="text/css" href="css/fallback.css" />
 </noscript>
+<!--[if lt IE 9]>
+			<link rel="stylesheet" type="text/css" href="css/fallback.css" />
+		<![endif]-->
 </head>
 
 <body>
@@ -28,63 +33,17 @@
   <header>
     <!--banner start-->
     <div class="banner row" id="banner">
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 noPadd">
-        <!--slider start-->
-        <div id="ri-grid" class="ri-grid ri-grid-size-2"> <img class="ri-loading-image" src="images/loading.gif"/>
-          <ul class="cb-slideshow">
-            <li><a href="#"><img src="images/portfolio/big/1.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/2.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/3.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/4.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/5.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/6.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/7.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/8.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/9.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/11.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/11.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/12.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/13.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/14.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/15.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/16.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/17.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/18.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/19.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/20.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/21.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/22.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/23.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/24.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/25.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/26.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/27.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/28.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/29.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/30.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/31.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/32.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/33.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/34.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/35.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/36.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/37.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/38.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/39.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/40.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/41.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/42.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/43.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/44.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/45.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/46.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/47.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/48.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/49.jpg"/></a></li>
-            <li><a href="#"><img src="images/portfolio/big/50.jpg"/></a></li>
-          </ul>
-        </div>
-        <!--slider end-->
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 noPadd" style="height:100%">
+        <!--background slide show start-->
+        <ul class="cb-slideshow">
+          <li><span>Image 01</span></li>
+          <li><span>Image 02</span></li>
+          <li><span>Image 03</span></li>
+          <!-- <li><span>Image 04</span></li>
+          <li><span>Image 05</span></li> -->
+
+        </ul>
+        <!--background slide show end-->
       </div>
     </div>
     <!--banner end-->
@@ -136,7 +95,7 @@
           <p>Technically sophisticated engineering professional with extensive experience in information technology and mechanical engineering. Highly skilled in web & application development, programming, report development, database management systems, user interface designs, graphic design, and web design. Effective communicator with aptitude for building relationships that support organizational goals. </p>
           <!-- <p>nulla pariatur.uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. olore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p> -->
           <a href="RameshkannaYohalingam.pdf" class="bntDownload">Download Printable Resume</a> </div>
-        <div class=" col-xs-12 col-sm-12 col-md-4 col-lg-4 col-md-offset-1 col-lg-offset-1 proPic"> <img src="images/portfolio/big/ramesh2.jpg" alt="" class="img-circle topmar"> </div>
+        <div class=" col-xs-12 col-sm-12 col-md-4 col-lg-4 col-md-offset-1 col-lg-offset-1 proPic"> <img src="http://placehold.it/295x295&text=image1" alt="" class="img-circle topmar"> </div>
       </div>
     </div>
   </section>
@@ -503,28 +462,28 @@
       </div>
       <ul class="portfolioContainer row">
         <li class="photos col-xs-6 col-sm-4 col-md-3 col-lg-3">
-          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/1.jpg" title="Project Title1" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="images/portfolio/big/1" alt=""  > </div>
+          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/1.jpg" title="Project Title1" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="http://placehold.it/450x450&text=image1" alt=""  > </div>
         </li>
         <li class="branding illustration col-xs-6 col-sm-4 col-md-3 col-lg-3">
-          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/2.jpg" title="Project Title2" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="images/portfolio/big/2" alt="" > </div>
+          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/2.jpg" title="Project Title2" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="http://placehold.it/450x450&text=image2" alt="" > </div>
         </li>
         <li class="illustration col-xs-6 col-sm-4 col-md-3 col-lg-3">
-          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/3.jpg" title="Project Title3" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="images/portfolio/big/3" alt="" > </div>
+          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/3.jpg" title="Project Title3" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="http://placehold.it/450x450&text=image3" alt="" > </div>
         </li>
         <li class="branding illustration col-xs-6 col-sm-4 col-md-3 col-lg-3">
-          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/4.jpg" title="Project Title4" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="images/portfolio/big/4" alt="" > </div>
+          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/4.jpg" title="Project Title4" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="http://placehold.it/450x450&text=image4" alt="" > </div>
         </li>
         <li class="illustration photos col-xs-6 col-sm-4 col-md-3 col-lg-3">
-          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/5.jpg" title="Project Title5" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="images/portfolio/big/5" alt="" > </div>
+          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/5.jpg" title="Project Title5" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="http://placehold.it/450x450&text=image5" alt="" > </div>
         </li>
         <li class="branding photos col-xs-6 col-sm-4 col-md-3 col-lg-3">
-          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/6.jpg" title="Project Title6" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="images/portfolio/big/6" alt="" > </div>
+          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/6.jpg" title="Project Title6" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="http://placehold.it/450x450&text=image6" alt="" > </div>
         </li>
         <li class="illustration photos col-xs-6 col-sm-4 col-md-3 col-lg-3">
-          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/7.jpg" title="Project Title7" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="images/portfolio/big/7" alt="" > </div>
+          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/7.jpg" title="Project Title7" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="http://placehold.it/450x450&text=image7" alt="" > </div>
         </li>
         <li class="branding col-xs-6 col-sm-4 col-md-3 col-lg-3">
-          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/8.jpg" title="Project Title8" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="images/portfolio/big/8" alt="" > </div>
+          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/8.jpg" title="Project Title8" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="http://placehold.it/450x450&text=image8" alt="" > </div>
         </li>
       </ul>
     </div>
@@ -539,15 +498,15 @@
       </div>
     </div>
     <div class="row mapArea">
-      <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2882.213572505731!2d-79.24745818419784!3d43.74766155433471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d1d2d57e7647%3A0xbf65dbf07b338cd1!2s93+Seminole+Ave%2C+Scarborough%2C+ON+M1J+1N3%2C+Canada!5e0!3m2!1sen!2sus!4v1476921369019"></iframe>
-    </div>
+        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2880.818391667553!2d-79.26317178419708!3d43.77662855245792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d1a63c9c28db%3A0xd147ec9870be00a3!2sScarborough+Town+Centre!5e0!3m2!1sen!2sus!4v1476924800166"></iframe>
+      </div>
   </section>
   <section class="contactDetails">
     <div class="container">
       <!--contact info start-->
       <div class="col-xs-12 col-sm-3 col-md-4 col-lg-4">
         <h4>Contact details</h4>
-        <p> <i class="fa fa-map-marker fa-lg"></i>93,Seminole Avenue,Scarborough,M1J1N3,Canada</p>
+        <p> <i class="fa fa-map-marker fa-lg"></i>Scarborough, Ontario, Canada</p>
         <p> <i class="fa fa-mobile fa-lg"></i> +1 647 783 3342</p>
         <p> <i class="fa fa-envelope-o "></i> <a href="mailto:ramesh.yohalingam@gmail.com">ramesh.yohalingam@gmail.com</a></p>
         <p> <i class="fa fa-link "></i> <a href="www.yrameshk.com">www.yrameshk.com</a></p>
@@ -572,14 +531,14 @@
   <!--footer start-->
   <section class="footer" id="footer">
     <div class="container">
-      <ul>
-        <li><a href="https://ca.linkedin.com/in/ramesh-yoha"><i class="fa fa-linkedin fa-2x"></i></a></li>
-        <li><a href="https://twitter.com/RameshYoha"><i class="fa fa-twitter fa-2x"></i></a></li>
-        <li><a href="https://www.facebook.com/Ramesh.K.Yoha"><i class="fa fa-facebook fa-2x"></i></a></li>
-        <li><a href="https://github.com/yrameshk26/"><i class="fa fa-github fa-2x"></i></a></li>
-        <li><a href="https://www.instagram.com/yrameshk/"><i class="fa fa-instagram fa-2x"></i></a></li>
-        <li><a href="https://www.youtube.com/channel/UCwGH1NcE7D4LNV2NHDnBNrg"><i class="fa fa-youtube fa-2x"></i></a></li>
-      </ul>
+        <ul>
+          <li><a href="https://ca.linkedin.com/in/ramesh-yoha"><i class="fa fa-linkedin fa-2x"></i></a></li>
+          <li><a href="https://twitter.com/RameshYoha"><i class="fa fa-twitter fa-2x"></i></a></li>
+          <li><a href="https://www.facebook.com/Ramesh.K.Yoha"><i class="fa fa-facebook fa-2x"></i></a></li>
+          <li><a href="https://github.com/yrameshk26/"><i class="fa fa-github fa-2x"></i></a></li>
+          <li><a href="https://www.instagram.com/yrameshk/"><i class="fa fa-instagram fa-2x"></i></a></li>
+          <li><a href="https://www.youtube.com/channel/UCwGH1NcE7D4LNV2NHDnBNrg"><i class="fa fa-youtube fa-2x"></i></a></li>
+        </ul>
     </div>
   </section>
   <!--footer end-->
@@ -587,7 +546,7 @@
 <!--wrapper end-->
 <!--modernizr js-->
 <script type="text/javascript" src="js/modernizr.custom.26633.js"></script>
-<!--jquary min js-->
+<!--jquery min js-->
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/jquery.gridrotator.js"></script>
