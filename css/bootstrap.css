@@ -368,7 +368,7 @@ img {
 .img-circle {
   border-radius: 50%;
   width:300px;
-  height: auto;
+  height: auto;  
 }
 
 hr {
