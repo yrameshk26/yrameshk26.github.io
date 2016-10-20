@@ -1,374 +1,654 @@
 <!DOCTYPE html>
-<html >
+<html class="no-js" lang="en">
 
-  <head>
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Ramesh Yoha</title>
+<link rel="icon" href="images/portfolio/thumb/cuckoo.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--main style-->
+<link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+<!--google font style-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300' rel='stylesheet' type='text/css'>
+<!--font-family: 'Open Sans', sans-serif;-->
+<!-- font css style-->
+<link rel="stylesheet" href="css/font-awesome.css">
+<!--for slider style-->
 
-      <meta charset="UTF-8">                                          <!-- Universal Charactor Encoding -->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>www.yrameshk.com</title>                                 <!-- Defines the Tab Name -->
-      <link rel='stylesheet prefetch' href='css/format.css'>
-      <link rel="stylesheet" href="css/style.css" type="text/css">    <!-- Connects CSS Style Sheet -->
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
-      <link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.6/animate.min.css'>
-<!--        <link rel="stylesheet" href="css/fontawesome/css/font-awesome.min.css">-->
-      <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
-        <link href='http://fonts.googleapis.com/css?family=Terminal+Dosis' rel='stylesheet' type='text/css' />
-      <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,800' rel='stylesheet' type='text/css'>
-      <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Philosopher:700" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+<noscript>
+<link rel="stylesheet" type="text/css" href="css/fallback.css" />
+</noscript>
+</head>
 
-  </head>
-
-
-  <body>                                                              <!-- Defines Body Tag -->
-    <section id="wrapper">
-        <section id="mask">
-            <section class="panel" id="navPage">                                            <!-- Defines Section Semantic Element Tag -->
-
-              <nav id="naviMenu">                                         <!-- Navigation Menu Comes Here -->
-                <ul id="menu">                                                <!-- Defines Unordered List to make Navigation Elements  -->
-                  <a class="menu-button icon-menu" href="#menu" title="Show navigation"></a>        <!-- Menu Expansion -->
-                  <a class="menu-button icon-minus" href="#" title="Hide navigation"></a>           <!-- Hide Menu -->
-                  <li class="menu-item"><a class="menu-item-back" id = "interestLink" href="#interestsPage"></a></li>   <!-- Interests Menu -->
-                  <li class="menu-item"><a class="menu-item-back" id = "contactLink" href="#contactMePage"></a></li>   <!-- Contact Me Menu -->
-                  <li class="menu-item"><a class="menu-item-back" id = "skillLink" href="#skillsPage"></a></li>      <!-- Skills Menu -->
-                  <li class="menu-item"><a class="menu-item-back" id = "portLink" href="#portfolioPage"></a></li>   <!-- Portfolio Menu -->
-                  <li class="menu-item"><a class="menu-item-back" id = "homeLink" href="#homePage"></a></li>        <!-- Home Menu -->
-                  <li class="menu-item"><a class="menu-item-back" id = "aboutLink" href="#aboutMePage"></a></li>     <!-- About Me Menu -->
-                </ul>
-              </nav>
-
-                <nav class="arrowNav">
-                <a href="#homePage" class="rightArrow" id="navRightArrow"><i class="fa fa-arrow-circle-right"></i></a>
-                    </nav>
-
-<!--             HIDDEN / POP-UP DIV -->
-            <div class="pop-up" id="homePop">
-              <img src="images/homeBig.png"  height="40" width="150">
-
-
-            </div>
-
-            <div class="pop-up" id="aboutPop">
-
-              <img src="images/aboutBig.png"  height="40" width="150">
-
-            </div>
-
-            <div class="pop-up" id="interestPop">
-              <img src="images/interestBig.png"  height="40" width="150">
-            </div>
-
-             <div class="pop-up" id="skillPop">
-              <img src="images/skillBig.png"  height="40" width="150">
-            </div>
-
-             <div class="pop-up" id="portPop">
-              <img src="images/portBig.png"  height="40" width="150">
-            </div>
-
-             <div class="pop-up" id="contactPop">
-              <img src="images/contactBig.png"  height="40" width="150">
-            </div>
-
-
-              <article id="indexPortText">                                    <!-- First Page Initial Text Section -->
-
-                Ramesh's Digital Portfolio
-              </article>
-
-            </section>
-
-              <section class="panel" id="homePage">     <!-- Home Page Section -->
-                 <nav class="arrowNav" id="homeArrowNav">
-                <a href="#navPage" class="leftArrow" id="homeLeftArrow"><i class="fa fa-arrow-circle-left"></i></a>
-                <a href="#aboutMePage" class="rightArrow" id="homeRightArrow"><i class="fa fa-arrow-circle-right"></i></a>
-                    </nav>
-                  <article id="homeArticle">
-                        <h1 class="homeMainText">Ramesh Yoha</h1>
-                        <h4 class="homeSubText">Web Designer | Software Developer | Mechanical Engineer | Photographer</h4>
-                  </article>
-
-              </section>
-
-
-              <section class="panel" id="aboutMePage">                                      <!-- About Me Page Section -->
-                 <nav class="arrowNav" id="aboutArrowNav">
-                <a href="#homePage" class="leftArrow"><i class="fa fa-arrow-circle-left"></i></a>
-                <a href="#portfolioPage" class="rightArrow"><i class="fa fa-arrow-circle-right"></i></a>
-                    </nav>
-                  <section id="aboutMeSection">
-                    <article id="aboutMeImage">
-                        <img src="images/Ramesh.png" height="200px" width="200px" alt ="www.yrameshk.com">
-                    </article>
-                    <article id="aboutMeHeader">
-                        <p id="aboutTitleText">RAMESHKANNA YOHALINGAM</p>
-                        <p id="aboutSubTitleText">Web Designer | Software Developer | Mechanical Engineer | Photographer</p>
-                        </article>
-                        <article id="aboutLower">
-                        <div id="aboutInfoPara">
-                        <p>Technically sophisticated engineering professional with extensive experience in information technology and mechanical engineering. Highly skilled in web & application development, programming, report development, database management systems, user interface designs, graphic design, and web design. Effective communicator with aptitude for building relationships that support organizational goals.</p>
-                        </div>
-
-                      <div id="circSocial">
-                  <ul>
-                    <li class="animated zoomIn"><a href="https://www.facebook.com/Ramesh.K.Yoha">
-                      <div class="backSocial"></div>
-                      <div class="iconSocial">
-                        <i class="fa fa-facebook"></i>
-                      </div></a>
-                    </li>
-                    <li class="animated zoomIn delayone"><a href="https://twitter.com/RameshYoha">
-                      <div class="backSocial"></div>
-                      <div class="iconSocial">
-                        <i class="fa fa-twitter"></i>
-                      </div></a>
-                    </li>
-                    <li class="animated zoomIn delaytwo"><a href="https://www.linkedin.com/in/ramesh-yoha">
-                      <div class="backSocial"></div>
-                      <div class="iconSocial">
-                        <i class="fa fa-linkedin"></i>
-                      </div></a>
-                    </li>
-                    <li class="animated zoomIn delaythree"><a href="https://github.com/yrameshk26">
-                      <div class="backSocial"></div>
-                      <div class="iconSocial"  style="vertical-align:middle ;">
-                        <i class="fa fa-github" ></i>
-                        </div></a>
-                    </li>
-                    <li class="animated zoomIn delayfour"><a href="https://www.youtube.com/user/rameshyoha">
-                      <div class="backSocial"></div>
-                      <div class="iconSocial">
-                        <i class="fa fa-youtube"></i>
-                        </div></a>
-                    </li>
-                    <li class="animated zoomIn delayfive"><a href="https://www.instagram.com/yrameshk/">
-                      <div class="backSocial"></div>
-                      <div class="iconSocial">
-                        <i class="fa fa-instagram"></i>
-                        </div></a>
-                    </li>
+<body>
+<!--wrapper start-->
+<div class="wrapper" id="wrapper">
+  <header>
+    <!--banner start-->
+    <div class="banner row" id="banner">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 noPadd">
+        <!--slider start-->
+        <div id="ri-grid" class="ri-grid ri-grid-size-2"> <img class="ri-loading-image" src="images/loading.gif"/>
+          <ul class="cb-slideshow">
+            <li><a href="#"><img src="images/portfolio/big/1.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/2.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/3.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/4.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/5.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/6.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/7.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/8.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/9.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/11.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/11.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/12.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/13.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/14.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/15.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/16.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/17.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/18.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/19.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/20.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/21.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/22.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/23.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/24.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/25.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/26.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/27.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/28.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/29.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/30.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/31.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/32.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/33.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/34.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/35.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/36.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/37.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/38.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/39.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/40.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/41.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/42.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/43.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/44.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/45.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/46.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/47.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/48.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/49.jpg"/></a></li>
+            <li><a href="#"><img src="images/portfolio/big/50.jpg"/></a></li>
+          </ul>
+        </div>
+        <!--slider end-->
+      </div>
+    </div>
+    <!--banner end-->
+    <div class="bannerText container">
+      <h1>I'm Ramesh Yoha</h1>
+      <h2>Software Developer|Mechanical Engineer|Photographer</h2>
+    </div>
+    <!--menu start-->
+    <div class="menu">
+      <div class="navbar-wrapper">
+        <div class="container">
+          <div class="navwrapper">
+            <div class="navbar navbar-inverse navbar-static-top">
+              <div class="container">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                  <a class="navbar-brand" href="#">Menu</a> </div>
+                <div class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav">
+                    <li class="menuItem active"><a href="#wrapper">Home</a></li>
+                    <li class="menuItem"><a href="#aboutme">About</a></li>
+                    <li class="menuItem"><a href="#technical">Skills</a></li>
+                    <li class="menuItem"><a href="#exprience">Experience</a></li>
+                    <li class="menuItem"><a href="#education">Education</a></li>
+                    <li class="menuItem"><a href="#protfolio">Portfolio</a></li>
+                    <li class="menuItem"><a href="#contact">Contact</a></li>
                   </ul>
                 </div>
-                  </article>
-                  </section>
-              </section>
+              </div>
+            </div>
+          </div>
+          <!-- End Navbar -->
+        </div>
+      </div>
+    </div>
+    <!--menu end-->
+  </header>
+  <!--about me start-->
+  <section class="aboutme" id="aboutme">
+    <div class="container">
+      <div class="heading">
+        <h2>About me</h2>
+        <p>Excellence Is An Attitude</p>
+      </div>
+      <div class="row">
+        <div class=" col-xs-12 col-sm-12 col-md-7 col-lg-7">
+          <h3>Ramesh Yoha</h3>
+          <h4 class="subHeading">Software Developer|Mechanical Engineer|Photographer</h4>
+          <p>Technically sophisticated engineering professional with extensive experience in information technology and mechanical engineering. Highly skilled in web & application development, programming, report development, database management systems, user interface designs, graphic design, and web design. Effective communicator with aptitude for building relationships that support organizational goals. </p>
+          <!-- <p>nulla pariatur.uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. olore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p> -->
+          <a href="RameshkannaYohalingam.pdf" class="bntDownload">Download Printable Resume</a> </div>
+        <div class=" col-xs-12 col-sm-12 col-md-4 col-lg-4 col-md-offset-1 col-lg-offset-1 proPic"> <img src="images/portfolio/big/ramesh2.jpg" alt="" class="img-circle topmar"> </div>
+      </div>
+    </div>
+  </section>
+  <!--about me end-->
+  <!--technical start-->
+  <section class="technical" id="technical">
+    <div class="container">
+      <div class="heading">
+        <h2>Technical Skills</h2>
+        <p>I can say i’m quite good at</p>
+      </div>
+      <div class="row">
+        <div class=" col-xs-12 col-sm-3 col-md-3 col-lg-3 skillsArea">
+          <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 skills"> <span class="chart skilBg" data-percent="95"> <span class="percent"></span> </span>
+            <h4>Java / J2EE</h4>
 
+          </div>
+        </div>
+        <div class=" col-xs-12 col-sm-3 col-md-3 col-lg-3 skillsArea">
+          <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 skills"> <span class="chart skilBg" data-percent="80"> <span class="percent"></span> </span>
+            <h4>Python / VB.net / PHP</h4>
 
-              <section class="panel" id="portfolioPage">                                    <!-- Portfolio Page Section -->
-                  <section id="portSection">
-                      <div>
-                          <a href = "game/BrickCanvasGame/Canvas.html">
-                          <img src="images/CanvasGame.png" width = 100% height = 100%>
-                              <span class="text-content"><span>Breakout Brick Game on Canvas (Javascript)</span></span>
-                            </a>
-                      </div>
+          </div>
+        </div>
+        <div class=" col-xs-12 col-sm-3 col-md-3 col-lg-3 skillsArea">
+          <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 skills"> <span class="chart skilBg" data-percent="80"> <span class="percent"></span> </span>
+            <h4>C / C++</h4>
 
-                      <div>
-                          <a href = "game/SVGAnim/index.html">
-                          <img src="images/SVGAnim.png" width = 100% height = 100%>
-                              <span class="text-content"><span>Simple Animation on SVG (HTML/CSS)</span></span>
-                            </a>
-                      </div>
+          </div>
+        </div>
+        <div class=" col-xs-12 col-sm-3 col-md-3 col-lg-3 skillsArea">
+          <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 skills"> <span class="chart skilBg" data-percent="95"> <span class="percent"></span> </span>
+            <h4>HTML5 / CSS3 / Javascript</h4>
 
-                      <div>
-                          <a href = "game/PlanetJavaGame/LoopyPlanet.zip">
-                          <img src="images/PlanetJframe.png" width = 100% height = 100%>
-                              <span class="text-content"><span>Simple Java Loopy Planet (Java/Jframe)</span></span>
-                            </a>
-                      </div>
+          </div>
+        </div>
+        <div class=" col-xs-12 col-sm-3 col-md-3 col-lg-3 skillsArea">
+          <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 skills"> <span class="chart skilBg" data-percent="70"> <span class="percent"></span> </span>
+            <h4>Node.js / Angular.js (Learning)</h4>
 
-                      <div>
-                          <a href = "game/SudokuJavaGame/sudoku.jar">
-                          <img src="images/Sudoku.png" width = 100% height = 100%>
-                          <span class="text-content"><span>Sudoku Game by Java (Java/Jframe)</span></span>
-                        </a>
-                      </div>
+          </div>
+        </div>
+        <div class=" col-xs-12 col-sm-3 col-md-3 col-lg-3 skillsArea">
+          <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 skills"> <span class="chart skilBg" data-percent="95"> <span class="percent"></span> </span>
+            <h4>MSSql / Oracle / NOSql</h4>
 
-                      <div>
-                          <img src="images/ComingSoon.jpg" width = 100% height = 100%>
-                      </div>
+          </div>
+        </div>
+        <div class=" col-xs-12 col-sm-3 col-md-3 col-lg-3 skillsArea">
+          <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 skills"> <span class="chart skilBg" data-percent="85"> <span class="percent"></span> </span>
+            <h4>MatLab / Solidworks / Autocad</h4>
 
-                      <div>
-                          <img src="images/ComingSoon.jpg" width = 100% height = 100%>
-                      </div>
+          </div>
+        </div>
+        <div class=" col-xs-12 col-sm-3 col-md-3 col-lg-3 skillsArea">
+          <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 skills"> <span class="chart skilBg" data-percent="80"> <span class="percent"></span> </span>
+            <h4>jQuery / Wordpress / Bootstrap</h4>
 
-                  </section>
-                  <nav class="arrowNav" id="portArrowNav">
-                <a href="#aboutMePage" class="leftArrow"><i class="fa fa-arrow-circle-left"></i></a>
-                <a href="#skillsPage" class="rightArrow"><i class="fa fa-arrow-circle-right"></i></a>
-                    </nav>
+          </div>
+        </div>
+        <div class=" col-xs-12 col-sm-3 col-md-3 col-lg-3 skillsArea">
+          <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 skills"> <span class="chart skilBg" data-percent="95"> <span class="percent"></span> </span>
+            <h4>Adobe Photoshop / Illustrator / Corel Draw</h4>
 
-              </section>
+          </div>
+        </div>
+        <div class=" col-xs-12 col-sm-3 col-md-3 col-lg-3 skillsArea">
+          <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 skills"> <span class="chart skilBg" data-percent="90"> <span class="percent"></span> </span>
+            <h4>Android Development</h4>
 
+          </div>
+        </div>
+        <div class=" col-xs-12 col-sm-3 col-md-3 col-lg-3 skillsArea">
+          <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 skills"> <span class="chart skilBg" data-percent="90"> <span class="percent"></span> </span>
+            <h4>Crystal Reports / DBMS / Datagrid</h4>
 
-              <section class="panel" id="skillsPage">                                       <!-- Skills Page Section -->
-                <nav class="arrowNav" id="skillArrowNav">
-                <a href="#portfolioPage" class="leftArrow"><i class="fa fa-arrow-circle-left"></i></a>
-                <a href="#interestsPage" class="rightArrow"><i class="fa fa-arrow-circle-right"></i></a>
-                    </nav>
+          </div>
+        </div>
+        <div class=" col-xs-12 col-sm-3 col-md-3 col-lg-3 skillsArea">
+          <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 skills"> <span class="chart skilBg" data-percent="80"> <span class="percent"></span> </span>
+            <h4>SoapUI / JMeter</h4>
 
-              </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--technical end-->
+  <!--exprience start-->
+  <section class="exprience" id="exprience">
+    <div class="container">
+      <div class="heading">
+        <h2>Work Experience</h2>
+        <p>My previous associations</p>
+      </div>
+      <div class="row workDetails">
+        <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+          <div class="workYear">Sep,2016<br>
+            Present</div>
+        </div>
+        <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+          <div class="arrowpart"></div>
+          <div class="exCon">
+            <h4>Telus Communications Inc.</h4>
+            <h5>Junior Developer Analyst</h5>
+            <ul>
+                <li>Developing and testing codes with Oracle Coherence Data Grid architecture application</li>
+                <li>Developing an internal web based GUI tool with Angular JS, to receive data from RESTful API from couchbase Database</li>
+                <li>Testing web services with SOAPUI, JMeter in the Rest and SOAP web services and side by side testing on Unix Environment</li>
+                <li>Scrum Methodology, Agile Methodology, Daily standup meeting</li>
+                <li>Debugging and find out the root cause of the Database issues on code and suggesting a fix</li>
+                <li>Modifying the tool which generates input data for the side by side testing of datagrid web services</li>
+                <li>Modifying/developing the existing cache modules for a future enhancement or testing purpose</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row workDetails">
+        <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+          <div class="workYear">Jul,2015<br>
+            Dec,2015</div>
+        </div>
+        <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+          <div class="arrowpart"></div>
+          <div class="exCon">
+            <h4>hSenid Business Solutions (PVT) Ltd.</h4>
+            <h5>Implementation Engineer</h5>
+            <ul>
+                <li>Implemented hSenid HRM system at client’s sites including a product walk through to train employees’ post-implementation to empower users to utilize system</li>
+                <li>Upgraded HRM Enterprise from V5 internal application to V8 at Client Side before the scheduled deadline</li>
+                <li>Learnt Crystal Reports within short period & generated reports according to customer requirements</li>
+                <li>Generated queries on SQL and Oracle platforms according to the system requirements</li>
+                <li>Built solid relationships with clients to provide superior service</li>
+                <li>Conducted monthly progress meetings, delivered presentations to clients and steering committee & prepared meeting minuets</li>
+                <li>Analyzed, troubleshot & assisted on server & application issues by remote connection</li>
+                <li>Spearheaded a data migration from old server to new server on SQL & Oracle Servers</li>
+                <li>Developed quality software based on detailed analysis of product</li>
+            </ul>
+        </div>
+        </div>
+      </div>
+      <div class="row workDetails">
+        <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+          <div class="workYear">Nov,2013<br>
+            May,2014</div>
+        </div>
+        <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+          <div class="arrowpart"></div>
+          <div class="exCon">
+            <h4>Amra Plastic Moulders (PVT) Ltd.</h4>
+            <h5>IT Help Desk & Mechanical Engineer</h5>
+            <ul>
+                <li>Performed dual roles as both a mechanical engineer and IT help desk support</li>
+                <li>Set up, inspected, and troubleshot injection moulding machines & IT section Hardware</li>
+                <li>Utilized SolidWorks to design new drawings and modify existing drawings</li>
+                <li>Updated and maintained company website using WordPress</li>
+                <li>Measured parts to ensure proper fit with CMM & Created mould parts using various manufacturing machines</li>
+                <li>Relied upon by coworkers to make recommendations for new IT hardware purchases</li>
+                <li>Operated and trained on manufacturing software, Bespoke</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row workDetails">
+        <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+          <div class="workYear">Jan,2010<br>
+            Jan,2016</div>
+        </div>
+        <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+          <div class="arrowpart"></div>
+          <div class="exCon">
+            <h4>Individual</h4>
+            <h5>Private Home Tutoring</h5>
+            <ul>
+                <li>Conducted private class for student from Grades 9 - University Level on Mathematics, Physics & Chemistry</li>
+                <li>Helped with homework, assignments, projects, and teaching course material</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row workDetails">
+        <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+          <div class="workYear">Jan,2012<br>
+            Present</div>
+        </div>
+        <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+          <div class="arrowpart"></div>
+          <div class="exCon">
+            <h4>Dreamographers</h4>
+            <h5>Photographer (Parttime)</h5>
+            <p>Conducted Photoshoots Indoor/Outdoor, Covered Events/Ceremonies, Photo Trails</p>
+            <ul>
+                <li><a href = "https://www.facebook.com/dreamographers/">Dreamographers Facebook Page</a></li>
+                <li><a href = "https://1drv.ms/f/s!Ai-1VXyMcLl13Tg8mGE58w27hasQ">Personal Portfolio</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--exprience end-->
+  <!--education start-->
+  <section class="education" id="education">
+    <div class="container">
+      <div class="heading">
+        <h2>Education & Credentials</h2>
+        <p>What I have done in my academic career</p>
+      </div>
+      <div class="row workDetails">
+        <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+          <div class="workYear">May,2016<br>
+          Sep,2016</div>
+        </div>
+        <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+          <div class="arrowpart"></div>
+          <div class="exCon">
+            <h4>Web & Mobile Application Development Training</h4>
+            <h5>NPower Canada</h5>
+            <p>15 Weeks Of Front End Application Development & Android Application Development In Class Training with Microsoft Technology Associate (MTA) Certification.</p>
+            <ul>
+              <li>HTML5 / CSS3 / Javascript</li>
+              <li>Java Development</li>
+              <li>Android Development</li>
+          </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row workDetails">
+        <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+          <div class="workYear">Apr, 2011<br>
+          Apr,2015</div>
+        </div>
+        <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+          <div class="arrowpart"></div>
+          <div class="exCon">
+            <h4>Professional Graduate Diploma (Information Technology)</h4>
+            <h5>British Council</h5>
+            <p>The Professional Graduate Diploma is the academic equivalent to a university honors degree in England, and is recognized by Ofqual as a level 6 qualification.</p>
+            <ul>
+                <li>Certificate in Information Technology
+                    <ul>
+                      <li>Computer & Network Technology</li>
+                      <li>Information Systems</li>
+                      <li>Software Development</li>
+                  </ul>
+              </li>
 
+                <li>Diploma in Information Technology
+                    <ul>
+                      <li>Database Management Systems</li>
+                      <li>Internet Technologies</li>
+                      <li>Object Oriented Programming</li>
+                      <li>Professional Issues in Information System Practice</li>
+                  </ul>
+              </li>
 
-              <section class="panel" id="interestsPage">                                    <!-- Interests Page Section -->
-                  <section id="interestsSection" class="multiInterests">
-                      <div id = "photography"><a href=""><h1>Photography</h1></a></div>
-                      <div id = "sports"><a href=""><h1>Sports/Games</h1></a></div>
-                      <div id = "socialMedia"><a href=""><h1>Social Media/Movies</h1></a></div>
-                          <div id = "travelling"><a href=""><h1>Travelling/Exploring</h1></a></div>
-                  </section>
-                <nav class="arrowNav" id="interestArrowNav">
-                <a href="#skillsPage" class="leftArrow"><i class="fa fa-arrow-circle-left"></i></a>
-                <a href="#contactMePage" class="rightArrow"><i class="fa fa-arrow-circle-right"></i></a>
-                    </nav>
+                <li>Professional Graduate Diploma in Information Technology
+                    <ul>
+                      <li>Advanced Database Management Systems</li>
+                      <li>Management Information Systems</li>
+                      <li>Programming Paradigms</li>
+                      <li>Realizing the User Interface</li>
+                  </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row workDetails">
+        <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+          <div class="workYear">Jun, 2010<br>
+          May, 2015</div>
+        </div>
+        <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+          <div class="arrowpart"></div>
+          <div class="exCon">
+            <h4>Bachelor Of Science (hons) in Mechanical Engineering</h4>
+            <h5>University Of Moratuwa</h5>
+            <p>B.Sc. Engineering degree program is accredited by the Institution of Engineers Sri Lanka (IESL). In addition, the Mechanical Engineering degree program has obtained international recognition through the accreditation of the Institution of Mechanical Engineers, UK (IMechE) and Washington Accord.</p>
+            <ul>
+                <li>Final Year Project As Part Of The B.Sc. Engineering Degree Program
+                    <ul>
+                      <li>Project Name: "Process  Enhancement of Casted Aluminium Saucepan Manufacturing”</li>
+                  </ul>
+              </li>
 
-              </section>
+                <li>Semester 5 Project for the module of “Machine Design and Project”
+                    <ul>
+                      <li>Project Name: “Automatic Coconut Scrapper”</li>
+                  </ul>
+              </li>
 
-
-              <section class="panel" id="contactMePage">                                    <!-- Contact Me Page Section-->
-                  <section id="contactSection">
-                        <div id="contactHeading">
-                            <p> Contact Me
-                              <b>Get In Touch With Me</b>
-                            </p>
-                        </div>
-
-                    <section class="contact-wrap" id="contactForm">
-                      <form action="" class="contact-form">
-                        <div class="col-sm-6">
-                          <div class="input-block">
-                            <label for="">First Name</label>
-                            <input type="text" class="form-control">
-                          </div>
-                        </div>
-                        <div class="col-sm-6">
-                          <div class="input-block">
-                            <label for="">Last Name</label>
-                            <input type="text" class="form-control">
-                          </div>
-                        </div>
-                        <div class="col-sm-12">
-                          <div class="input-block">
-                            <label for="">Email</label>
-                            <input type="email" class="form-control">
-                          </div>
-                        </div>
-                        <div class="col-sm-12">
-                          <div class="input-block">
-                            <label for="">Message Subject</label>
-                            <input type="text" class="form-control">
-                          </div>
-                        </div>
-                        <div class="col-sm-12">
-                          <div class="input-block textarea">
-                            <label for="">Drop your message here</label>
-                            <textarea rows="3" type="text" class="form-control"></textarea>
-                          </div>
-                        </div>
-                        <div class="col-sm-12">
-                          <button class="square-button">Send</button>
-                        </div>
-                      </form>
-                    </section>
-
-
-
-                  </section>
-                <nav class="arrowNav" id="contactArrowNav">
-                <a href="#interestsPage" class="leftArrow"><i class="fa fa-arrow-circle-left"></i></a>
-                    </nav>
-              </section>
-             <nav id="topNav">
-                 <header id="webHeader">
-  <svg>
-   <defs>
-     <mask id="maskHeader" x="0" y="0" width="100%" height="100%" >
-       <!-- alpha rectangle -->
-       <rect id="alphaHeader" x="0" y="0" width="100%" height="100%"/>
-       <!-- All text that you want -->
-       <text id="titleHeader" dx="25%" y="7.5vw">Ramesh Yoha</text>
-       <text id="subtitleHeader" dx="25.7%" y="9.1vw" >www.yrameshk.com</text>
-     </mask>
-    </defs>
-    <!-- Apply color here! -->
-    <rect id="baseHeader" x="0" y="0" width="100%" height="100%"/>
-  </svg>
-<!--<section class="introHeader"></section></header>-->
-                 </header>
-                      <ul class="ca-menu">
-
-                    <li class="other-icon"><a href="#homePage">
-                            <span class="ca-icon"><i class="fa fa-home"></i></span>
-                            <div class="ca-content">
-                                <h2 class="ca-main">Home</h2>
-                                <h3 class="ca-sub">www.yrameshk.com</h3>
-                            </div>
-                        </a></li>
-
-                    <li class="other-icon"><a href="#aboutMePage">
-                            <span class="ca-icon"><i class="fa fa-user"></i></span>
-                            <div class="ca-content">
-                                <h2 class="ca-main">About Me</h2>
-                                <h3 class="ca-sub">Professional In Action</h3>
-                            </div>
-                        </a></li>
-
-                    <li class="other-icon"><a href="#portfolioPage">
-                            <span class="ca-icon"><i class="fa fa-folder-open"></i></span>
-                            <div class="ca-content">
-                                <h2 class="ca-main">Portfolio</h2>
-                                <h3 class="ca-sub">Previous Projects</h3>
-                            </div>
-                        </a></li>
-
-                    <li class="other-icon"><a href="#skillsPage">
-                            <span class="ca-icon"><i class="fa fa-check-square-o"></i></span>
-                            <div class="ca-content">
-                                <h2 class="ca-main">Skills</h2>
-                                <h3 class="ca-sub">Excellence is an attitude</h3>
-                            </div>
-                        </a></li>
-
-                    <li class="other-icon"><a href="#interestsPage">
-                            <span class="ca-icon"><i class="fa fa-camera"></i></span>
-                            <div class="ca-content">
-                                <h2 class="ca-main">Interests</h2>
-                                <h3 class="ca-sub">Other than Programming</h3>
-                            </div>
-                        </a></li>
-
-                    <li class="other-icon"><a href="#contactMePage">
-                            <span class="ca-icon"><i class="fa fa-phone-square"></i></span>
-                            <div class="ca-content">
-                                <h2 class="ca-main">Contact Me</h2>
-                                <h3 class="ca-sub">24/7 for your needs</h3>
-                            </div>
-                        </a></li>
-
-                    <li class="collapse-icon">
-                        <a href="javascript:void(0);" style="font-size:15px;" onclick="collapse()"><span class="ca-icon"><i class="fa fa-ship"></i></span></a>
-                    </li>
-
+                <li>Semester 7 Project for the module of “MEMS/NEMS”
+                    <ul>
+                      <li>Project Name: “Design and Fabrication of a MEMS Based 2DOF Capacitive Accelerometer”</li>
+                  </ul>
+              </li>
+              <li>Participated in IEEE Xtreme 5.0 & IEEE Xtreme 6.0 24-Hour Programming Competition
+                  <ul>
+                    <li>IEEE Xtreme 5.0 – Rank 460</li>
+                    <li>IEEE Xtreme 6.0 – Rank 395</li>
                 </ul>
+            </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row workDetails">
+        <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+          <div class="workYear">May,2016</div>
+        </div>
+        <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+          <div class="arrowpart"></div>
+          <div class="exCon">
+            <h4>Process optimization of Sri Lankan saucepan manufacturing industry by time study analysis</h4>
+            <h5>University of Moratuwa</h5>
+            <p>Publication URL: <a href="http://dl.lib.mrt.ac.lk/handle/123/11015">http://dl.lib.mrt.ac.lk/handle/123/11015</a>. <br>This study was carried out at the Jayantha Saucepan Industry to improve and enhance the productivity by reducing the idle time and enhance the bottleneck by different methods such as changing the layouts, changing the number of work stations and changing the process flow. During the study, it investigated and searched for possible solutions and alternatives aimed at achieving the objective by Pareto analysis for time study, allocating the work stations in an effective way, changing the layout for a better productivity, and analysing skill matrix to allocate the works for the current labourers, and train the labourers and need of hiring more labourers for the particular work stations in an efficient way to enhance the bottleneck manually. Further improvements such as adapting into new techniques and using better alternatives for some processes were also discussed to enhance the productivity of the local saucepan manufacturing industry. Overall, suggested alternatives yielded an expected improvement of 20% in the production capacity</p>
+            </div>
+        </div>
+      </div>
+      <div class="row workDetails">
+        <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+          <div class="workYear">Jun,2016</div>
+        </div>
+        <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+          <div class="arrowpart"></div>
+          <div class="exCon">
+            <h4>Microsoft Technology Associate (MTA) 98-375 - HTML5 Application Development Fundamentals</h4>
+            <h5>Microsoft</h5>
+            <p>https://mcp.microsoft.com/Anonymous//Transcript/Validate. License Number : 13408996</p>
+            </div>
+        </div>
+      </div>
+      <div class="row workDetails">
+        <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+          <div class="workYear">Dec,2016 (Expected)</div>
+        </div>
+        <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+          <div class="arrowpart"></div>
+          <div class="exCon">
+            <h4>Oracle Certified Associate, Java SE 8 Programmer</h4>
+            <h5>Oracle</h5>
+            <p></p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--education end-->
+  <!--protfolio start-->
+  <section class="protfolio" id="protfolio">
+    <div class="container">
+      <div class="heading">
+        <h2>Portfolio</h2>
+        <p>showcase of my latest works</p>
+      </div>
+      <div class="portfolioFilter">
+        <ul>
+          <li><a href="#" data-filter="*" class="current">All</a></li>
+          <li><a href="#" data-filter=".photos">Photos</a></li>
+          <li><a href="#" data-filter=".branding">Branding</a></li>
+          <li><a href="#" data-filter=".illustration">Illustration</a></li>
+        </ul>
+      </div>
+      <ul class="portfolioContainer row">
+        <li class="photos col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/1.jpg" title="Project Title1" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="images/portfolio/big/1" alt=""  > </div>
+        </li>
+        <li class="branding illustration col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/2.jpg" title="Project Title2" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="images/portfolio/big/2" alt="" > </div>
+        </li>
+        <li class="illustration col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/3.jpg" title="Project Title3" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="images/portfolio/big/3" alt="" > </div>
+        </li>
+        <li class="branding illustration col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/4.jpg" title="Project Title4" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="images/portfolio/big/4" alt="" > </div>
+        </li>
+        <li class="illustration photos col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/5.jpg" title="Project Title5" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="images/portfolio/big/5" alt="" > </div>
+        </li>
+        <li class="branding photos col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/6.jpg" title="Project Title6" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="images/portfolio/big/6" alt="" > </div>
+        </li>
+        <li class="illustration photos col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/7.jpg" title="Project Title7" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="images/portfolio/big/7" alt="" > </div>
+        </li>
+        <li class="branding col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/8.jpg" title="Project Title8" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="images/portfolio/big/8" alt="" > </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!--protfolio end-->
+  <!--contact start-->
+  <section class="contact" id="contact">
+    <div class="container topCon">
+      <div class="heading">
+        <h2>Get In Touch</h2>
+        <p>Please feel free if you would like to have a chat.</p>
+      </div>
+    </div>
+    <div class="row mapArea">
+      <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2882.213572505731!2d-79.24745818419784!3d43.74766155433471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d1d2d57e7647%3A0xbf65dbf07b338cd1!2s93+Seminole+Ave%2C+Scarborough%2C+ON+M1J+1N3%2C+Canada!5e0!3m2!1sen!2sus!4v1476921369019"></iframe>
+    </div>
+  </section>
+  <section class="contactDetails">
+    <div class="container">
+      <!--contact info start-->
+      <div class="col-xs-12 col-sm-3 col-md-4 col-lg-4">
+        <h4>Contact details</h4>
+        <p> <i class="fa fa-map-marker fa-lg"></i>93,Seminole Avenue,Scarborough,M1J1N3,Canada</p>
+        <p> <i class="fa fa-mobile fa-lg"></i> +1 647 783 3342</p>
+        <p> <i class="fa fa-envelope-o "></i> <a href="mailto:ramesh.yohalingam@gmail.com">ramesh.yohalingam@gmail.com</a></p>
+        <p> <i class="fa fa-link "></i> <a href="www.yrameshk.com">www.yrameshk.com</a></p>
+      </div>
+      <!--contact info end-->
+      <!--contact form start-->
+      <div class="col-xs-12 col-sm-9 col-md-8 col-lg-8 conForm">
+        <h4>Shoot a message!</h4>
+        <div id="message"></div>
+        <form method="post" action="php/contact.php" name="cform" id="cform">
+          <input name="name" id="name" type="text" class="col-xs-12 col-sm-6 col-md-6 col-lg-6" placeholder="Your name..." >
+          <input name="email" id="email" type="email" class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 noMarr" placeholder="Your email..." >
+          <textarea name="comments" id="comments" cols="" rows="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Your message..."></textarea>
+          <input type="submit" id="submit" name="send" class="submitBnt" value="Send message">
+          <div id="simple-msg"></div>
+        </form>
+      </div>
+      <!--contact form end-->
+    </div>
+  </section>
+  <!--contact end-->
+  <!--footer start-->
+  <section class="footer" id="footer">
+    <div class="container">
+      <ul>
+        <li><a href="https://ca.linkedin.com/in/ramesh-yoha"><i class="fa fa-linkedin fa-2x"></i></a></li>
+        <li><a href="https://twitter.com/RameshYoha"><i class="fa fa-twitter fa-2x"></i></a></li>
+        <li><a href="https://www.facebook.com/Ramesh.K.Yoha"><i class="fa fa-facebook fa-2x"></i></a></li>
+        <li><a href="https://github.com/yrameshk26/"><i class="fa fa-github fa-2x"></i></a></li>
+        <li><a href="https://www.instagram.com/yrameshk/"><i class="fa fa-instagram fa-2x"></i></a></li>
+        <li><a href="https://www.youtube.com/channel/UCwGH1NcE7D4LNV2NHDnBNrg"><i class="fa fa-youtube fa-2x"></i></a></li>
+      </ul>
+    </div>
+  </section>
+  <!--footer end-->
+</div>
+<!--wrapper end-->
+<!--modernizr js-->
+<script type="text/javascript" src="js/modernizr.custom.26633.js"></script>
+<!--jquary min js-->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/jquery.gridrotator.js"></script>
+<!--for custom jquary-->
+<script src="js/custom.js"></script>
+<!--for placeholder jquary-->
+<script type="text/javascript" src="js/jquery.placeholder.js"></script>
+<!--for menu jquary-->
+<script type="text/javascript" src="js/stickUp.js"></script>
+<script type="text/javascript">
+jQuery(function($) {
+$(document).ready( function() {
+  //enabling stickUp on the '.navbar-wrapper' class
+  $('.navbar-wrapper').stickUp({
+				parts: {
+				  0: 'banner',
+				  1: 'aboutme',
+				  2: 'technical',
+				  3: 'exprience',
+				  4: 'education',
+				  5: 'protfolio',
+				  6: 'contact'
+				},
+				itemClass: 'menuItem',
+				itemHover: 'active',
+				topMargin: 'auto'
+			  });
+});
 
-                  </nav>
+$( ".navbar.navbar-inverse.navbar-static-top a" ).click(function() {
+  $( ".navbar-collapse" ).addClass( "hideClass" );
+});
 
 
-              <footer id="indexFooter">                                      <!-- Fixed Footer Text -->
-                  &copy;yrameshk - All Rights Reserved. - Website Created By Ramesh
-              </footer>
+$( ".navbar.navbar-inverse.navbar-static-top a" ).click(function() {
+  $( ".navbar-collapse" ).addClass( "collapse" );
+});
 
-         </section>
-         </section>
 
-<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js'></script>
+$( ".navbar.navbar-inverse.navbar-static-top a" ).click(function() {
+  $( ".navbar-collapse" ).removeClass( "in" );
+});
 
-        <script src="js/index.js"></script>
+$( ".navbar-toggle" ).click(function() {
+  $( ".navbar-collapse" ).removeClass( "hideClass" );
+});
 
-  </body>
 
+});
+</script>
+<!--for portfoli filter jquary-->
+<script src="js/jquery.isotope.js" type="text/javascript"></script>
+<!--for portfoli lightbox -->
+<link type="text/css" rel="stylesheet" id="theme" href="css/jquery-ui-1.8.16.custom.css">
+<link type="text/css" rel="stylesheet" href="css/lightbox.min.css">
+<script type="text/javascript" src="js/jquery.ui.widget.min.js"></script>
+<script type="text/javascript" src="js/jquery.ui.rlightbox.js"></script>
+<!--for skill chat jquary-->
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.easypiechart.js"></script>
+<!--contact form js-->
+<script type="text/javascript" src="js/jquery.contact.js"></script>
+</body>
 </html>
