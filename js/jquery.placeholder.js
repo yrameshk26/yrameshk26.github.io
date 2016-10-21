@@ -2,7 +2,7 @@
 
 	/**
 	 * Spoofs placeholders in browsers that don't support them (eg Firefox 3)
-	 * 
+	 *
 	 * Copyright 2011 Dan Bentley
 	 * Licensed under the Apache License 2.0
 	 *
@@ -20,7 +20,7 @@
 		$(':password[placeholder]').each(function() {
 			setupPasswords($(this));
 		});
-	   
+
 		$('form').submit(function(e) {
 			clearPlaceholdersBeforeSubmit($(this));
 		});
@@ -35,7 +35,7 @@
 			if (input.data('changed') === true) return;
 			if (input.val() === placeholderText) input.val('');
 		}).blur(function(e) {
-			if (input.val() === '') input.val(placeholderText); 
+			if (input.val() === '') input.val(placeholderText);
 		}).change(function(e) {
 			input.data('changed', input.val() !== '');
 		});
@@ -56,7 +56,7 @@
 			input.hide();
 			passwordPlaceholder.show();
 		});
-			
+
 		$(passwordPlaceholder).focus(function(e) {
 			input.show().focus();
 			passwordPlaceholder.hide();
