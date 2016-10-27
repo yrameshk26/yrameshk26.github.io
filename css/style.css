@@ -156,7 +156,7 @@ header{
 	background:#1b1f2b;
 }
 .cb-slideshow li{
-	opacity:0.2;
+	opacity:0.4;
 	filter:alpha(opacity=20); /* For IE8 and earlier */
 }
 
