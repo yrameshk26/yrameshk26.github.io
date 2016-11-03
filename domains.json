@@ -1,4 +1,5 @@
-{"content": [
+{
+	"content": [
 		{
 			"name": "PT148OfflineProvisioningSvc",
 			"environment": "ITS02",
@@ -8,12 +9,12 @@
 			"adminpassword": "fake",
 			"connectaddress": "ln98594.corp.ads:30000",
 			"datacenter": "Laird",
-			"intenvironment": "null",
+			"intenvironment": null,
 			"family": "OfflineProvisioningSvc",
-			"enabled": "true",
+			"enabled": true,
 			"ownerteam": "EM-CAD(ON)",
-			"vendorsupported": "false",
-			"dmz": "false"
+			"vendorsupported": false,
+			"dmz": false
 		},
 		{
 			"name": "ST101OfflineProvisioningSvc",
@@ -24,12 +25,12 @@
 			"adminpassword": "fake",
 			"connectaddress": "ln98590.corp.ads:40000",
 			"datacenter": "Laird",
-			"intenvironment": "null",
+			"intenvironment": null,
 			"family": "OfflineProvisioningSvc",
-			"enabled": "true",
+			"enabled": true,
 			"ownerteam": "EM-CAD(ON)",
-			"vendorsupported": "false",
-			"dmz": "false"
+			"vendorsupported": false,
+			"dmz": false
 		},
 		{
 			"name": "ST101OfflineProvisioningSvc",
@@ -40,20 +41,20 @@
 			"adminpassword": "fake",
 			"connectaddress": "ln98590.corp.ads:40000",
 			"datacenter": "Laird",
-			"intenvironment": "null",
+			"intenvironment": null,
 			"family": "OfflineProvisioningSvc",
-			"enabled": "true",
+			"enabled": true,
 			"ownerteam": "EM-CAD(ON)",
-			"vendorsupported": "false",
-			"dmz": "false"
+			"vendorsupported": false,
+			"dmz": false
 		}
 	],
-	"last": "true",
+	"last": true,
 	"totalElements": 3,
 	"totalPages": 1,
 	"numberOfElements": 3,
-	"sort": "null",
-	"first": "true",
+	"sort": null,
+	"first": true,
 	"size": 20,
 	"number": 0
 }
