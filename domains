@@ -1,5 +1,4 @@
-{
-	"content": [
+[
 		{
 			"name": "PT148OfflineProvisioningSvc",
 			"environment": "ITS02",
@@ -48,13 +47,4 @@
 			"vendorsupported": false,
 			"dmz": false
 		}
-	],
-	"last": true,
-	"totalElements": 3,
-	"totalPages": 1,
-	"numberOfElements": 3,
-	"sort": null,
-	"first": true,
-	"size": 20,
-	"number": 0
-}
+	]
