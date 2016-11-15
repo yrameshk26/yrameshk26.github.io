@@ -1,17 +1,17 @@
 [
-		{
-			"name": "PT148OfflineProvisioningSvc",
-			"environment": "ITS02",
-			"supportteam": "EM-CAD(ON)"
-		},
-		{
-			"name": "ST101OfflineProvisioningSvc",
-			"environment": "ITS04",
-			"supportteam": "EM-CAD(ON)"
-		},
-		{
-			"name": "ST101OfflineProvisioningSvc",
-			"environment": "ITS04",
-			"supportteam": "EM-CAD(ON)"
-		}
-	]
+  {
+    "name": "PT148OfflineProvisioningSvc",
+    "environment": "ITS02",
+    "supportteam": "EM-CAD(ON)"
+  },
+  {
+    "name": "ST101OfflineProvisioningSvc",
+    "environment": "ITS04",
+    "supportteam": "EM-CAD(ON)"
+  },
+  {
+    "name": "ST101OfflineProvisioningSvc",
+    "environment": "ITS04",
+    "supportteam": "EM-CAD(ON)"
+  }
+]
