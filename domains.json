@@ -2,49 +2,16 @@
 		{
 			"name": "PT148OfflineProvisioningSvc",
 			"environment": "ITS02",
-			"supportteam": "EM-CAD(ON)",
-			"version": "10.3.6.0",
-			"adminuser": "configmgmt",
-			"adminpassword": "fake",
-			"connectaddress": "ln98594.corp.ads:30000",
-			"datacenter": "Laird",
-			"intenvironment": null,
-			"family": "OfflineProvisioningSvc",
-			"enabled": true,
-			"ownerteam": "EM-CAD(ON)",
-			"vendorsupported": false,
-			"dmz": false
+			"supportteam": "EM-CAD(ON)"
 		},
 		{
 			"name": "ST101OfflineProvisioningSvc",
 			"environment": "ITS04",
-			"supportteam": "EM-CAD(ON)",
-			"version": "10.3.6.0",
-			"adminuser": "configmgmt",
-			"adminpassword": "fake",
-			"connectaddress": "ln98590.corp.ads:40000",
-			"datacenter": "Laird",
-			"intenvironment": null,
-			"family": "OfflineProvisioningSvc",
-			"enabled": true,
-			"ownerteam": "EM-CAD(ON)",
-			"vendorsupported": false,
-			"dmz": false
+			"supportteam": "EM-CAD(ON)"
 		},
 		{
 			"name": "ST101OfflineProvisioningSvc",
 			"environment": "ITS04",
-			"supportteam": "EM-CAD(ON)",
-			"version": "10.3.6.0",
-			"adminuser": "configmgmt",
-			"adminpassword": "fake",
-			"connectaddress": "ln98590.corp.ads:40000",
-			"datacenter": "Laird",
-			"intenvironment": null,
-			"family": "OfflineProvisioningSvc",
-			"enabled": true,
-			"ownerteam": "EM-CAD(ON)",
-			"vendorsupported": false,
-			"dmz": false
+			"supportteam": "EM-CAD(ON)"
 		}
 	]
