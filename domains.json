@@ -1,8 +1,6 @@
-{  
-   "content":[  
+[  
       {  
          "name":"PT148OfflineProvisioningSvc",
-	 "test": 3,
          "environment":"ITS02",
          "supportteam":"EM-CAD(ON)",
          "version":"10.3.6.0",
@@ -19,7 +17,6 @@
       },
       {  
          "name":"ST101OfflineProvisioningSvc",
-	 "test": 4,
          "environment":"ITS04",
          "supportteam":"EM-CAD(ON)",
          "version":"10.3.6.0",
@@ -36,7 +33,6 @@
       },
       {  
          "name":"ST101OfflineProvisioningSvc",
-	 "test": 5,
          "environment":"ITS04",
          "supportteam":"EM-CAD(ON)",
          "version":"10.3.6.0",
@@ -51,13 +47,4 @@
          "vendorsupported":false,
          "dmz":false
       }
-   ],
-   "last":true,
-   "totalElements":3,
-   "totalPages":1,
-   "first":true,
-   "numberOfElements":3,
-   "size":20,
-   "number":0,
-   "sort":null
-}
+   ]
