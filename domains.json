@@ -31,30 +31,14 @@
          "ownerteam":"EM-CAD(ON)",
          "vendorsupported":false,
          "dmz":false
-      },
-      {  
-         "name":"ST101OfflineProvisioningSvc",
-         "environment":"ITS04",
-         "supportteam":"EM-CAD(ON)",
-         "version":"10.3.6.0",
-         "adminuser":"configmgmt",
-         "adminpassword":"fake",
-         "connectaddress":"ln98590.corp.ads:40000",
-         "datacenter":"Laird",
-         "intenvironment":null,
-         "family":"OfflineProvisioningSvc",
-         "enabled":true,
-         "ownerteam":"EM-CAD(ON)",
-         "vendorsupported":false,
-         "dmz":false
       }
    ],
    "last":true,
-   "totalElements":3,
    "totalPages":1,
-   "first":true,
-   "numberOfElements":3,
+   "totalElements":2,
+   "numberOfElements":2,
    "size":20,
    "number":0,
+   "first":true,
    "sort":null
 }
