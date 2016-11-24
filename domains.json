@@ -1,5 +1,4 @@
-{  
-   "content":[  
+[  
       {  
          "id":1,
          "name":"PT148OfflineProvisioningSvc",
@@ -34,13 +33,4 @@
          "vendorsupported":false,
          "dmz":false
       }
-   ],
-   "last":true,
-   "totalPages":1,
-   "totalElements":2,
-   "numberOfElements":2,
-   "size":20,
-   "number":0,
-   "first":true,
-   "sort":null
-}
+   ]
