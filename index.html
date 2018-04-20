@@ -68,7 +68,7 @@
                     <li class="menuItem"><a href="#technical">Skills</a></li>
                     <li class="menuItem"><a href="#exprience">Experience</a></li>
                     <li class="menuItem"><a href="#education">Education</a></li>
-                    <li class="menuItem"><a href="#protfolio">Portfolio</a></li>
+                    <!-- <li class="menuItem"><a href="#protfolio">Portfolio</a></li> -->
                     <li class="menuItem"><a href="#contact">Contact</a></li>
                   </ul>
                 </div>
@@ -448,7 +448,7 @@
   </section>
   <!--education end-->
   <!--protfolio start-->
-  <section class="protfolio" id="protfolio">
+  <!-- <section class="protfolio" id="protfolio">
     <div class="container">
       <div class="heading">
         <h2>Portfolio</h2>
@@ -491,7 +491,7 @@
         </li>
       </ul>
     </div>
-  </section>
+  </section> -->
   <!--protfolio end-->
   <!--contact start-->
   <section class="contact" id="contact">
@@ -560,46 +560,7 @@
 <script type="text/javascript" src="js/jquery.placeholder.js"></script>
 <!--for menu jquary-->
 <script type="text/javascript" src="js/stickUp.js"></script>
-<script type="text/javascript">
-jQuery(function($) {
-$(document).ready( function() {
-  //enabling stickUp on the '.navbar-wrapper' class
-  $('.navbar-wrapper').stickUp({
-				parts: {
-				  0: 'banner',
-				  1: 'aboutme',
-				  2: 'technical',
-				  3: 'exprience',
-				  4: 'education',
-				  5: 'protfolio',
-				  6: 'contact'
-				},
-				itemClass: 'menuItem',
-				itemHover: 'active',
-				topMargin: 'auto'
-			  });
-});
-
-$( ".navbar.navbar-inverse.navbar-static-top a" ).click(function() {
-  $( ".navbar-collapse" ).addClass( "hideClass" );
-});
-
-
-$( ".navbar.navbar-inverse.navbar-static-top a" ).click(function() {
-  $( ".navbar-collapse" ).addClass( "collapse" );
-});
-
-
-$( ".navbar.navbar-inverse.navbar-static-top a" ).click(function() {
-  $( ".navbar-collapse" ).removeClass( "in" );
-});
-
-$( ".navbar-toggle" ).click(function() {
-  $( ".navbar-collapse" ).removeClass( "hideClass" );
-});
-
-
-});
+<script type="text/javascript" src="js/scrollnav.js">
 </script>
 <!--for portfoli filter jquary-->
 <script src="js/jquery.isotope.js" type="text/javascript"></script>
